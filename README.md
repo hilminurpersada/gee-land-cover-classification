@@ -32,7 +32,7 @@ This project demonstrates automated land cover classification using Google Earth
 ## Author
 Hilmi Nur Persada - Final Year Forestry Student at Universitas Gadjah Mada
 - Email: hilmi.nur.persada@mail.ugm.ac.id
-- LinkedIn: [Your LinkedIn Profile]
+- LinkedIn: https://www.linkedin.com/in/hilmi-nur-persada-6b1978346/
 
 ## License
 MIT License - feel free to use and modify for educational purposes.
