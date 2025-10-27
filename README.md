@@ -23,9 +23,11 @@ This project demonstrates automated land cover classification using Google Earth
 ## Results
 - Overall Accuracy: [Your Accuracy]%
 - Kappa Coefficient: [Your Kappa Score]
+<img width="606" height="294" alt="accuracy_result" src="https://github.com/user-attachments/assets/c4244462-06ed-42e1-a3f9-c1e5d3912f31" />
 
 ## Sample Output
 ![Classification Map](images/classification_map.png)
+
 
 ## Author
 Hilmi Nur Persada - Final Year Forestry Student at Universitas Gadjah Mada
