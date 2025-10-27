@@ -45,13 +45,13 @@ var ndviParams = {
   max: 1,
   palette: ['blue', 'white', 'green']
 };
-Map.addLayer(all_bands.select('NDVI'), ndviParams, 'NDVI 2006');
+Map.addLayer(all_bands.select('NDVI'), ndviParams, 'NDVI 2022');
 
 // Tambahkan layer false color (NIR, Red, Green) untuk analisis vegetasi
 Map.addLayer(
   all_bands,
   {bands: ['B5', 'B4', 'B3'], min: 0, max: 0.5, gamma: 1.4}, // B5=NIR, B4=Red, B3=Green
-  'False Color 2006 (NIR-R-G)'
+  'False Color 2022 (NIR-R-G)'
 );
 
 // Ekspor hasil
@@ -59,7 +59,7 @@ Export.image.toDrive({
   image: all_bands.select(['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'NDVI']), // Band Landsat 8
   description: 'Landsat8',
   folder: 'SKRIPSI',
-  fileNamePrefix: 'L8_2006',
+  fileNamePrefix: 'L8_2022',
   region: table,
   scale: 30,
   maxPixels: 1e13,
@@ -203,3 +203,4 @@ Export.image.toDrive({
     cloudOptimized: true
   }
 });
+
